@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="org.python.Python.PythonFramework-3.9" postinstall-action="none" version="0" format-version="2" generator-version="InstallCmds-763 (20G95)" install-location="/Library/Frameworks/Python.framework" auth="root">
+    <payload numberOfFiles="3596" installKBytes="65666"/>
+    <bundle path="./Versions/3.9/Resources/Python.app" id="org.python.python" CFBundleShortVersionString="3.9.7" CFBundleVersion="3.9.7"/>
+    <bundle-version>
+        <bundle id="org.python.python"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="org.python.python"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="org.python.python"/>
+    </strict-identifier>
+    <relocate/>
+    <scripts>
+        <postinstall file="./postinstall"/>
+    </scripts>
+</pkg-info>
